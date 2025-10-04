@@ -1,0 +1,41 @@
+/* General reset for fast rendering */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0D47A1; /* Dark blue background */
+    color: #FFFFFF; /* White text */
+    overflow: hidden; /* Prevents scrolling in fullscreen */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}

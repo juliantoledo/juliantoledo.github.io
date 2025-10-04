@@ -1,0 +1,18 @@
+{
+    "name": "Fast PWA Demo",
+    "short_name": "FastPWA",
+    "description": "A demo of a fast-loading, fullscreen PWA.",
+    "start_url": "/",
+    "display": "fullscreen",
+    "background_color": "#0D47A1",
+    "theme_color": "#00529B",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "logo.svg",
+            "sizes": "192x192 512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
